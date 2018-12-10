@@ -1,0 +1,73 @@
+/* CSS Document */
+/*Desktop Global View*/
+h3 {
+	padding-left: 2%;
+	margin-top: -1%;
+	font-family: 'Roboto Slab', serif;	
+	color: darkred;
+}
+.columnaboutus {
+	float: left;
+	border-width: 4px;
+	border-color:  #000000;
+	border-style: solid;
+	background-color:  #ffffff;
+	width: 980px;
+	margin-left: 2%;
+	
+}
+
+.imageaboutus {
+	margin-top: 2%;
+	width: 420px;
+}
+
+.paragraph1 {
+	margin-top: -26%;
+	padding-left: 45%;
+}
+
+.paragraph2 {
+	padding-left: 45%;
+}
+
+/*Tablet View*/
+@media (max-width: 768px) {
+	
+	.columnaboutus-md {
+		width: 725px;
+	}
+	.imageaboutus-md {
+		width: 300px;
+		height: 150px;
+	
+	}
+	
+	.paragraph1-md {
+		margin-top: -21%;
+	}
+	.paragraph2-md {
+		padding-top: 5px;
+		padding-left: 0px;
+	}
+}
+
+/*Mobile View*/
+@media (max-width: 400px) {
+	.columnaboutus-sm {
+		width: 340px;
+	}
+	
+	.imageaboutus-sm {
+		align-content: center;
+		padding: 1px;
+		width: 300px;
+	}
+	
+	.paragraph1-sm {
+		padding-left: 0px;
+		margin-top: 10px;
+		padding
+	}
+	}
+}
